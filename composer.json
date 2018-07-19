@@ -1,0 +1,22 @@
+{
+  "name": "lyhiving/mcaptcha",
+  "description": "PHP captcha",
+  "keywords": ["captcha","Easy captcha"],
+  "homepage": "https://github.com/lyhiving/mcaptcha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lyhiving",
+      "email": "lyhiving@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": { "lyhiving\\mCaptcha\\": "src/" }
+  },
+  "minimum-stability": "dev"
+}
